@@ -6,7 +6,7 @@ function App() {
   const [title, setTitle] = useState<string>('')
 
   useEffect(() => {
-    axios.get('http://localhost:8000/items').then(res => setTitle(res.data.title))
+    axios.get('https://eto-samoe-react.herokuapp.com/items').then(res => setTitle(res.data.title))
   }, [])
 
   return (
