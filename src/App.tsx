@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Helloalekum, {title}</h1>
+      <h1>Helloalekum, {title}!</h1>
     </div>
   );
 }
